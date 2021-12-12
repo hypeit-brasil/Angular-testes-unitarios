@@ -5,7 +5,7 @@ import { TestBed } from '@angular/core/testing';
 import { TodoService } from './todo.service';
 
 
-fdescribe('TodoService', () => {
+describe('TodoService', () => {
   let service: TodoService;
   let http: HttpClient;
 

@@ -2,13 +2,5 @@
 
   <h2 class="text-3xl mb-4">Meus afazeres</h2>
 
-  <article
-    *ngFor="let todo of todos"
-    class="p-4 block mb-2 border rounded-md shadow"
-  >
-    <input [checked]="todo.completed" type="checkbox" name="feito" />
-    <span class="text-lg ml-2">
-      {{ todo.title }}
-    </span>
-  </article>
+  <app-todo *ngFor="let todo of todos" [todo]="todo"></app-todo>
 </main>
