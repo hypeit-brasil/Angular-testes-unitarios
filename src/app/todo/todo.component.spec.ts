@@ -3,7 +3,7 @@ import { By } from '@angular/platform-browser';
 import { TodoComponent } from './todo.component';
 
 
-fdescribe('TodoComponent', () => {
+describe('TodoComponent', () => {
   let component: TodoComponent;
   let fixture: ComponentFixture<TodoComponent>;
 
